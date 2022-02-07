@@ -93,7 +93,7 @@ public class Principal extends JFrame implements ActionListener{
         menuOpciones.add(miSalir);
         miSalir.addActionListener(this);
 
-        ImageIcon imagen = new ImageIcon("images/logo-coca.png");
+        ImageIcon imagen = new ImageIcon();
         labelLogo = new JLabel(imagen);
         labelLogo.setBounds(5,5,250,100);
         add(labelLogo);
@@ -105,7 +105,7 @@ public class Principal extends JFrame implements ActionListener{
         add(labelBienvenido);
         
         labelTitle = new JLabel("Datos del trabajador para el calculo de vacaciones");
-        labelTitle.setBounds(45,140,900,25);
+        labelTitle.setBounds(25,140,900,25);
         labelTitle.setFont(new Font("Andale Mono", 0, 24));
         labelTitle.setForeground(new Color(255, 255, 255));
         add(labelTitle);

@@ -78,7 +78,7 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener{
         // Componente Boton
         boton2 = new JButton("No Acepto");
         // Dimensiones y coordenadas 
-        boton2.setBounds(120,290,100,30);
+        boton2.setBounds(120,290,120,30);
         // Llamado de evento
         boton2.addActionListener(this);
         // Metodo voleano para activacion de boton
@@ -87,7 +87,7 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener{
         add(boton2);
 
         // Contension de imagen en etiquet de interfaz
-        ImageIcon imagen = new ImageIcon("images/coca-cola.png");
+        ImageIcon imagen = new ImageIcon();
         label2 = new JLabel(imagen);
         label2.setBounds(315,135,300,300);
         add(label2);
