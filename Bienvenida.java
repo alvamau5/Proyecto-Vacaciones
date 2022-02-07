@@ -20,7 +20,7 @@ public class Bienvenida extends JFrame implements ActionListener{
         getContentPane().setBackground(new Color(255,0,0));
         setIconImage(new ImageIcon(getClass().getResource("images/icon.png")).getImage());
         
-        ImageIcon imagen = new ImageIcon("images/logo-coca.png");
+        ImageIcon imagen = new ImageIcon();
         label1 = new JLabel(imagen);
         // Dimension y coordenadas
         label1.setBounds(25,15,300,150);
