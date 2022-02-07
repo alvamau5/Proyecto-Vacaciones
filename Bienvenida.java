@@ -20,16 +20,16 @@ public class Bienvenida extends JFrame implements ActionListener{
         getContentPane().setBackground(new Color(255,0,0));
         setIconImage(new ImageIcon(getClass().getResource("images/icon.png")).getImage());
         
-        ImageIcon imagen = new ImageIcon("images/logo-coca.png");
+        ImageIcon imagen = new ImageIcon();
         label1 = new JLabel(imagen);
         // Dimension y coordenadas
-        label1.setBounds(25,15,300,150);
+        label1.setBounds(25,15,350,150);
         //Agregado de Etiqueta
         add(label1);
 
         //Dimension de texto de interfaz
         label2 = new JLabel("Sistema de Control Vacacional");
-        label2.setBounds(35,135,300,30);
+        label2.setBounds(15,135,350,30);
         //Fuente, dimension y tipo de tipografia de interfaz
         label2.setFont(new Font("Andale Mono", 3, 18));
         //Agregado de color de texto
@@ -48,7 +48,7 @@ public class Bienvenida extends JFrame implements ActionListener{
         add(label3);
 
         //Dimension de texto de interfaz
-        label4 = new JLabel("©2021 The Coca-Cola Company");
+        label4 = new JLabel("©2021");
         label4.setBounds(85,375,300,30);
         //Fuente, dimension y tipo de tipografia de interfaz
         label4.setFont(new Font("Andale Mono", 3, 10));
